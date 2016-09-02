@@ -1,0 +1,8 @@
+/***************Código en común***************/
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    /*Las fuentes que estan saque de google font*/
+    font-family: 'Open Sans', 'Courgette';
+}
