@@ -1,5 +1,15 @@
-$(document).ready(function() {
- 	$('.responsive').slick({
+ /*Nota. Nivel de entendimiento de JS para este codigo es como del 20%*/
+ $(document).ready(function() {
+  /*Adaptable Heitgh. Carrusel Banner*/
+ 	$('.one-time').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+  /*slider responsive. Carrusel Productos*/
+  $('.responsive').slick({
   dots: true,
   infinite: false,
   speed: 300,
