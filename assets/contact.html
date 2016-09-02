@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Estructura básica tomada de los demás proyectos. -->
+    <title>Fashion Accesories-Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=no-scalable">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <!-- Enlaces de letras -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" type="text/css">
+    <link rel="stylesheet" href="css/dist/bootstrap.min.css">
+    <!-- Archivo para el uso de iconos -->
+    <link rel="stylesheet" href="css/dist/font-awesome.min.css">
+    <!-- Archivo css para las animaciones -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- archivo css normal -->
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/common.css">   
+  </head>
+  <body>
+      <header> <!-- Inicia HEADER -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <nav class="navbar navbar-default" role="navigation">
+              <!-- Para ver el iconco "Hamburguesa" del forma responsive -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Desplegar navegación</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Default Welcome Msg!</a>
+              </div>
+              <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                   otro elemento que se pueda ocultar al minimizar la barra -->
+              <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Languaje<b class="caret"></b></a>
+                    <!-- Menú Desplegable IDIOMAS-->
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Spanish</a></li>
+                      <li><a href="#">English</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Currency<b class="caret"></b></a>
+                    <!-- Menú Desplegable MONEDA-->
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Peso Mexicano</a></li>
+                      <li><a href="#">Dollar</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a>
+                    <!-- Menú Desplegable MI CUENTA-->
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Perfil</a></li>
+                      <li><a href="#">Buys</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div> <!-- Termina Barra de Navegación -->
+        </div>
+        <div class="row"> <!-- Inicia SECCION LOGO -->
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center"><!-- HORARIO -->
+            <h4>Open Time</h4>
+            <p>9.00 AM - 10.00 PM</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center"><!-- LOGO -->
+            <img src="images/logo.png" alt="logo" class="img-responsive">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-left"><!-- BUSCADOR -->
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="search">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <!-- Segunda Barra de Navegación -->
+            <nav role="navigation">
+              <a href="#">HOME</a>
+              <a href="contact.html">CONTACT US</a>
+              <!-- Carrito de compras -->
+            </nav>
+          </div> <!-- Termina Barra de Navegación -->
+      </div>
+    </header><!-- Finaliza HEADER -->
+      <section>
+        <div class="container-fluid">
+          <div class="row"><!-- Banner -->
+            <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
+              <h1>Contact Us</h1>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
+              <p>Contact info</p>
+              <p>phone:0(1234) 567 890</p>
+              <p>Mail: Infor@roadthemes.com</p>
+              <p>Address: No 40 Baria Street 133/2 NewYork City, NY, United <br> States.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="hidden-xs hidden-sm col-md-6 col-lg-6"><!-- MAPA -->
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="formulario"> <!-- Inicia Formulario -->
+                    <form role="form">
+                      <div class="form-group">
+                        <label for="nombre">Nombre <span>*</span></label>
+                        <input type="text" id="nombre" class="ml-20">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email <span>*</span></label>
+                        <input type="email" id="email" class="ml-20">
+                      </div>
+                      <div class="form-group">
+                        <label for="url">Dejame tu URL <span>*</span></label>
+                        <textarea class="form-control" id="url" rows="2" class="ml-20"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-info">Enviar Email</button>
+                        <p><input type="text" class="mt-3 ml-30"></p>
+                      </div>
+                    </form>
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left">
+                        <p>Powered by <small>Equipo Laboratoria</small></p>
+                      </div>
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-right">
+                        <a href="#"><p>Report abuse</p></a>
+                      </div>
+                    </div>
+                  </div> <!-- Termina formulario -->
+                </div>
+              </div>
+          </div>
+      </section>
+      <footer>
+      <div class="container-fluid">
+        <div class="row"> <!-- Linea de links -->
+          <div class="hidden-xs hidden-sm col-md-3 col-lg-3">
+            <h4>ACCESORIES</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum asperiores ratione quis! Rerum ipsa aliquam corrupti obcaecati tenetur nam sapiente ea. Voluptatem labore tenetur iste, nihil dignissimos ea minima nisi.</p>
+          </div>
+          <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
+            <h4>MY ACCOUNT</h4>
+            <ul>
+              <li>My Account</li>
+              <li>Order History</li>
+              <li>Wish List</li>
+              <li>Newsletter</li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
+            <h4>INFORMATION</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Delivery Information</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
+            <h4>EXTRAS</h4>
+            <ul>
+              <li>Brands</li>
+              <li>Gift Vouchers</li>
+              <li>Affiliates</li>
+              <li>Specials</li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm col-md-3 col-lg-3">
+            <h4>ABOUT US</h4>
+            <p>8901 Marmora Road, Glasgow D0489 <br> GR, New York</p>
+            <p>(0123)456789 <br> (0987)654321</p>
+            <p>admin@bootexperts.com</p>
+          </div>
+        </div>
+        <div class="row"> <!-- Linea Final-->
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <p>Copyright &copy 2015 <small>BootExperts.</small> All rights reserved</p>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+      <!-- Incluir todos tus scripts apartir de este punto -->
+    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
